@@ -1,6 +1,6 @@
 app-id: com.sweetscape.ZeroOneZeroEditor
 runtime: org.kde.Platform
-runtime-version: '5.15-21.08'
+runtime-version: 5.15-21.08
 sdk: org.kde.Sdk
 command: 010editor
 finish-args:
@@ -13,9 +13,9 @@ modules:
   - name: perl-libs
     buildsystem: simple
     build-commands:
-      - 'perl-libs/install.sh'
+      - perl-libs/install.sh
     post-install:
-      - 'chmod -Rf u+w /app/lib/perl5/site_perl'
+      - chmod -Rf u+w /app/lib/perl5/site_perl
     sources:
       - generated-sources.json
 
@@ -41,7 +41,7 @@ modules:
       - perl -I /app/lib/perl5/site_perl/5.34.0/ /app/bin/extract.pl --quiet 010EditorLinux64Installer
       - mv install_dir/$HOME/010editor /app/lib/010editor
       - chmod -x /app/lib/010editor/Data/010Repository.zip
-      - mkdir -p /app/bin 
+      - mkdir -p /app/bin
       - ln -s /app/lib/010editor/010editor /app/bin/010editor
       - mkdir -p /app/share/icons/hicolor/128x128/apps/
       - cp /app/lib/010editor/010_icon_128x128.png /app/share/icons/hicolor/128x128/apps/com.sweetscape.ZeroOneZeroEditor.png
@@ -49,7 +49,7 @@ modules:
       - install -Dm0644 com.sweetscape.ZeroOneZeroEditor.appdata.xml /app/share/appdata/com.sweetscape.ZeroOneZeroEditor.appdata.xml
     sources:
       - type: archive
-        url: https://download.sweetscape.com/010EditorLinux64Installer12.0.1.tar.gz
+        url: http://download.sweetscape.com/010EditorLinux64Installer12.0.1.tar.gz
         sha256: f0bb4a37f41c75184b30cb76c3810334993eebb6bc3764adc548c61a7cc7c852
         strip-components: 0
         x-checker-data:
