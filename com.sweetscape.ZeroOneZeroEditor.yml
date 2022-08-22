@@ -5,7 +5,6 @@ sdk: org.kde.Sdk
 command: 010editor
 finish-args:
   - --share=ipc
-  - --socket=wayland
   - --socket=x11
   - --filesystem=home
 
