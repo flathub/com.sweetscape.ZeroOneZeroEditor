@@ -26,7 +26,20 @@
   </categories>
   <icon type="remote" height="332" width="254">https://www.sweetscape.com/press/010EdLogo.JPG</icon>
   <releases>
-    <release version="13.0.2" date="2023-05-02"/>
+    <release version="13.0.2" date="2023-05-02" type="stable">
+      <description>
+        <ul>
+          <li>Fixed a crash switching tabs when a Custom Inspector had an unapplied edit.</li>
+          <li>Fixed a crash when tab tearing is turned off and a tab is dragged onto itself.</li>
+          <li>Fixed issues with Find and wholeword when the find target started or ended with a symbol.</li>
+          <li>Fixed could not create a watch for a variable that had &lt;hidden=true&gt;.</li>
+          <li>Fixed the Help button on the Opening Files Options dialog did not open the correct help page.</li>
+          <li>Fixed a crash using column selection in hex mode when bytes per line was larger than 16.</li>
+          <li>Fixed regular expression ^ was not correctly matching the first line when a BOM was present.</li>
+          <li>Fixed on some Linux flavors sometimes pressing Ctrl when first focused could delete a selection.</li>
+        </ul>
+      </description>
+    </release>
     <release version="13.0.1" date="2022-10-25"/>
     <release version="13.0" date="2022-09-06"/>
     <release version="12.0.1" date="2021-10-07"/>
