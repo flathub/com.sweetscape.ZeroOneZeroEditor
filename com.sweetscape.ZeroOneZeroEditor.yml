@@ -28,8 +28,8 @@ modules:
       - install -Dm0644 com.sweetscape.ZeroOneZeroEditor.appdata.xml /app/share/appdata/com.sweetscape.ZeroOneZeroEditor.appdata.xml
     sources:
       - type: archive
-        url: https://download.sweetscape.com/010EditorLinux64Installer14.0.tar.gz
-        sha256: 179b45a05fe491221e6092526c644c27aad7f3af1a68240009f1bb20fc1fac50
+        url: https://www.sweetscape.com/download/010EditorLinux64Installer.tar.gz
+        sha256: 8d8c3ec03700e794b6933b66de2a944b47b6d476a7d830c88ff098d725a301e0
         strip-components: 0
         x-checker-data:
           type: rotating-url
