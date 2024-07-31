@@ -21,13 +21,22 @@
   </screenshots>
   <icon type="remote" height="332" width="254">https://www.sweetscape.com/press/010EdLogo.JPG</icon>
   <releases>
+    <release version="15.0" date="2024-07-31">
+      <url>https://www.sweetscape.com/010editor/latest_version.html</url>
+    </release>
     <release version="14.0.1" date="2024-03-07"/>
-    <release version="14.0" date="2023-07-28"/>
+    <release version="14.0" date="2023-07-28">
+      <url>https://www.sweetscape.com/010editor/latest_version_v14.html</url>
+    </release>
     <release version="13.0.2" date="2023-05-02"/>
     <release version="13.0.1" date="2022-10-25"/>
-    <release version="13.0" date="2022-09-06"/>
+    <release version="13.0" date="2022-09-06">
+      <url>https://www.sweetscape.com/010editor/latest_version_v13.html</url>
+    </release>
     <release version="12.0.1" date="2021-10-07"/>
-    <release version="12.0" date="2021-09-17"/>
+    <release version="12.0" date="2021-09-17">
+      <url>https://www.sweetscape.com/010editor/latest_version_v12.html</url>
+    </release>
   </releases>
   <content_rating type="oars-1.1">
     <content_attribute id="social-info">intense</content_attribute>
