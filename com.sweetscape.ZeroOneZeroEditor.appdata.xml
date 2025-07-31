@@ -16,7 +16,20 @@
   </description>
   <screenshots>
     <screenshot type="default">
-      <image type="source">https://www.sweetscape.com/graphics/50linux.png</image>
+      <image type="source">https://www.sweetscape.com/screenshots/010EdTemplateWav.GIF</image>
+      <caption>Binary Templates</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://www.sweetscape.com/graphics/010EdAnalyzeS.GIF</image>
+      <caption>Analysis Tools</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://www.sweetscape.com/screenshots/010EdFindS.GIF</image>
+      <caption>Find and Replace</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://www.sweetscape.com/screenshots/010EdHistogram1.GIF</image>
+      <caption>Histograms</caption>
     </screenshot>
   </screenshots>
   <icon type="remote" height="332" width="254">https://www.sweetscape.com/press/010EdLogo.JPG</icon>
