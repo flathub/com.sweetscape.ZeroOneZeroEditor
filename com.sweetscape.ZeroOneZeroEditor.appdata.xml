@@ -3,7 +3,9 @@
   <id>com.sweetscape.ZeroOneZeroEditor</id>
   <name>010 Editor</name>
   <project_license>LicenseRef-proprietary=https://www.sweetscape.com/010editor/manual/License.htm</project_license>
-  <developer_name>SweetScape Software Inc.</developer_name>
+  <developer id="com.sweetscape">
+    <name>SweetScape Software Inc.</name>
+  </developer>
   <summary>Hex editor</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <url type="homepage">https://www.sweetscape.com/010editor</url>
