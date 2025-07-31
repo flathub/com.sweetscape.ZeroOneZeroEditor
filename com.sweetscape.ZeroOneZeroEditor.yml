@@ -1,7 +1,7 @@
 app-id: com.sweetscape.ZeroOneZeroEditor
-runtime: org.kde.Platform
-runtime-version: 5.15-24.08
-sdk: org.kde.Sdk
+runtime: org.freedesktop.Platform
+runtime-version: '24.08'
+sdk: org.freedesktop.Sdk
 command: 010editor
 finish-args:
   - --device=dri
