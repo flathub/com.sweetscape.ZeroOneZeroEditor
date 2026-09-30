@@ -6,4 +6,4 @@ GenericName=A text and hex edtior
 Type=Application
 Exec=010editor %f
 Icon=com.sweetscape.ZeroOneZeroEditor
-
+StartupWMClass=010editor
