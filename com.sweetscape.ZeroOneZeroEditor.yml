@@ -6,7 +6,8 @@ command: 010editor
 finish-args:
   - --device=dri
   - --share=ipc
-  - --socket=x11
+  - --socket=wayland
+  - --socket=fallback-x11
   - --filesystem=home
 
 modules:
