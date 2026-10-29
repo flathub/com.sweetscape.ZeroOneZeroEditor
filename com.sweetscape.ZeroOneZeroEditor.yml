@@ -6,9 +6,9 @@ command: 010editor
 finish-args:
   - --device=dri
   - --share=ipc
-  - --socket=wayland
-  - --socket=fallback-x11
+  - --socket=x11
   - --filesystem=home
+  - --env=QT_QPA_PLATFORM=xcb
 
 modules:
   - name: 010editor
@@ -16,7 +16,7 @@ modules:
       - x86_64
     buildsystem: simple
     build-options:
-      no-debuginfo: true # Fix error while loading shared libraries: libQt5Core.so.5: object file has no loadable segments
+      no-debuginfo: true
     build-commands:
       - mkdir -p /app/lib/
       - mv 010editor /app/lib/010editor
