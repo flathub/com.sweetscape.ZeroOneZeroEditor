@@ -34,11 +34,11 @@
       <caption>Histograms</caption>
     </screenshot>
   </screenshots>
-  <icon type="remote" height="332" width="254">https://www.sweetscape.com/press/010EdLogo.JPG</icon>
   <releases>
-    <release version="17.0" date="2026-10-28">
+    <release version="17.0.1" date="2026-11-04">
       <url>https://www.sweetscape.com/010editor/latest_version.html</url>
     </release>
+    <release version="17.0" date="2026-10-28"/>
     <release version="16.0.4" date="2026-03-05"/>
     <release version="16.0.3" date="2026-01-15"/>
     <release version="16.0.2" date="2025-09-30"/>
